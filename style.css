@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f7f7f7; */
+    background-image: url(https://d3jkudlc7u70kh.cloudfront.net/banks-and-banking-fact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 340px;
+    height: auto;
+    position: absolute;
+    left: 4%;
+    top: 20%;
+    padding: 20px;
+    /* background-color: rgba(0, 157, 255, 0.39); */
+    background-image: url(https://plus.unsplash.com/premium_photo-1670271544153-dd9933f0f119?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGJhY2tncm91bmQlMjB0ZXh0dXJlfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+.login{
+    width: 250px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 5px;
+    width: 80%;
+    background-color: #1c811e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 10px;
+    color: white;
+}
+
+#login-container {
+    display: block;
+}
